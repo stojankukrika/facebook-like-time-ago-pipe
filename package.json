@@ -1,0 +1,45 @@
+{
+  "name": "time-ago-pipe",
+  "version": "1.2.1",
+  "description": "A really simple, lightweight Angular pipe for converting a date string into a time ago",
+  "main": "time-ago-pipe.js",
+  "typings": "time-ago-pipe.d.ts",
+  "scripts": {
+    "build": "ngc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewPoyntz/time-ago-pipe.git"
+  },
+  "keywords": [
+    "Angular2",
+    "timeago",
+    "pipe"
+  ],
+  "author": "“Andrew <“andrewpoyntz@hotmail.com”> (“http://www.andrewpoyntz.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewPoyntz/time-ago-pipe/issues"
+  },
+  "homepage": "https://github.com/AndrewPoyntz/time-ago-pipe#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^2.4.5",
+    "@angular/compiler-cli": "^2.4.5",
+    "@angular/core": "^2.0.1",
+    "@angular/platform-server": "^2.4.5",
+    "@types/core-js": "^0.9.34",
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.41",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.12",
+    "sinon": "^1.17.6",
+    "typescript": "^2.0.3",
+    "zone.js": "^0.6.25"
+  }
+}
